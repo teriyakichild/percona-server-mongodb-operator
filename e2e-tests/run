@@ -32,3 +32,4 @@ fail() {
 "$dir/operator-self-healing/run" || fail "operator-self-healing"
 "$dir/smart-update" || fail "smart-update"
 "$dir/version-service" || fail "version-service"
+"$dir/users" || fail "users"
